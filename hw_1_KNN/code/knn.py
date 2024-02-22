@@ -33,7 +33,7 @@ class KNNClassifier:
         elif n_loops == 1:
             distances = self.compute_distances_one_loop(X)
         else:
-            print('hi')
+            print('hi') # Hi))
             distances = self.compute_distances_two_loops(X)
         
         if len(np.unique(self.train_y)) == 2:
